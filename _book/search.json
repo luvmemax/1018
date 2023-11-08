@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "3  Lesson 1: The Divided Mind",
+    "section": "",
+    "text": "4 10월 18일 분열된 마음"
+  },
+  {
+    "objectID": "references.html#의견-불일치",
+    "href": "references.html#의견-불일치",
+    "title": "3  Lesson 1: The Divided Mind",
+    "section": "4.1 의견 불일치",
+    "text": "4.1 의견 불일치\n\n의견 불일치로 당황스러웠던 경험이 있나요? 그 감정엔 다양한 이유가 있지만, 그 중 하나는 ‘뇌가 작동하는 법이다’. 빠르게 변화하는 세상 속, 하나의 기술인 우리의 ’뇌’는 아직 시대에 맞춰 업데이트 되지 못했다!"
+  },
+  {
+    "objectID": "references.html#mental-shortcuts-생각의-지름길",
+    "href": "references.html#mental-shortcuts-생각의-지름길",
+    "title": "3  Lesson 1: The Divided Mind",
+    "section": "4.2 Mental Shortcuts > 생각의 지름길",
+    "text": "4.2 Mental Shortcuts > 생각의 지름길\n\n‘먹거나, 먹히거나!’ 소그룹에서 생존에 관한 문제를 빠르게 결정해야만 했다.\n정보를 빠르게 처리하기 위해 Mental Shortcuts를 발전시킴."
+  },
+  {
+    "objectID": "references.html#our-divided-minds",
+    "href": "references.html#our-divided-minds",
+    "title": "3  Lesson 1: The Divided Mind",
+    "section": "4.3 Our Divided Minds",
+    "text": "4.3 Our Divided Minds\n\n자동화 / 통제 파트 나뉘어짐\nAutomatic: 감정적, 직관적 = Autopilot > 엄청 큰 코끼리\nControlled: 의식적, 분석적 > 코끼리를 타고 있는 사람.\n\n\n\nimages/Divided Minds.png\n\n\n직관이 결정을 하면, 의식은 그 결정을 합리화하는데 사용된다. > 그래서 의식적으로 심사숙고해서 결정한 것이라고 착각함.\n\n\n4.3.1 “Our intuitions come first, our reasoning comes second.”\n\n우리의 Rider는 코끼리의 ‘변호사’"
+  },
+  {
+    "objectID": "references.html#cognitive-biases-인지-편향",
+    "href": "references.html#cognitive-biases-인지-편향",
+    "title": "3  Lesson 1: The Divided Mind",
+    "section": "4.4 ## Cognitive Biases 인지 편향",
+    "text": "4.4 ## Cognitive Biases 인지 편향"
+  },
+  {
+    "objectID": "references.html#confirmation-bias-확증-편향",
+    "href": "references.html#confirmation-bias-확증-편향",
+    "title": "3  Lesson 1: The Divided Mind",
+    "section": "4.5 Confirmation Bias 확증 편향",
+    "text": "4.5 Confirmation Bias 확증 편향\n\n기존의 신념과 일치하면 쉽게 받아들이고 불일치하면 거절한다.\n사실과 증거 중 우리 신념과 일치하는 부분만 받아들임.\n우리의 코끼리 (직관)가 정보를 보고 기존의 느낌, 신념, 경험을 바탕으로 걸러냄 > 확증편향은 코끼리가 만든다!\n확증편향에 빠져 희생자가 발생하진 않는지?"
+  },
+  {
+    "objectID": "references.html#확증편향을-벗어나는-방법",
+    "href": "references.html#확증편향을-벗어나는-방법",
+    "title": "3  Lesson 1: The Divided Mind",
+    "section": "4.6 확증편향을 벗어나는 방법",
+    "text": "4.6 확증편향을 벗어나는 방법\n\n4.6.1 Step 1. 코끼리가 폭주하는 지 확인한다.\nex. 내 생각 100프로 맞음. 모두가 그렇게 생각해.\n\n\n4.6.2 Step 2. 다른 관점을 생각해보자!\n\n내 의견 외에 다른 의견은 뭐가 있지?"
+  },
+  {
+    "objectID": "references.html#총정리",
+    "href": "references.html#총정리",
+    "title": "3  Lesson 1: The Divided Mind",
+    "section": "4.7 총정리",
+    "text": "4.7 총정리\n\nOur brains have two thinking “systems”: automatic and controlled thinking.\nOur reasoning often follows our intuitions, rather than the other way around.\nWe are prone to consistent errors in our reasoning, and we’re often unaware of it.\nThese mistakes can shape how we interpret facts and can lead to seemingly intractable disagreements."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  }
+]

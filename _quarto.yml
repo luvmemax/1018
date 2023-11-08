@@ -10,6 +10,8 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
+    - 1108.qmd
+
 
 bibliography: references.bib
 
