@@ -2,15 +2,15 @@ project:
   type: book
 
 book:
-  title: "1018 @@"
-  author: "Jane Doe"
+  title: "sol_Final"
+  author: "SJH"
   date: "2023. 10. 18."
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
-    - 1108.qmd
+  
 
 
 bibliography: references.bib
