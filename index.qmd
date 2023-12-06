@@ -1,9 +1,43 @@
-# Preface {.unnumbered}
+# 해결지향소통
 
-This is a Quarto book.
+### 원격 → 로컬 저장소
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+**1.Tools → Project Options**
 
-```{r}
-1 + 1
+**2.새 창이 열리면 Git/SVN → Version control system을 (None)에서 Git으로 변경**
+
+**3.Terminal 클릭 후 아래 코드 입력**
+
+``` r
+git remote add origin https://github.com/luvmemax/1018.git
+
+git config --global user.email "litam0401@naver.com"
+
+git config --global user.name "luvmemax"
 ```
+
+**4.원격저장소 내용 로컬에 반영**
+
+-   먼저 원격저장소의 내용(main)을 로컬저장소(origin)으로 당겨온다(pull)
+
+``` r
+git pull origin main
+```
+
+### 로컬 -\> 원격 저장소
+
+**1.변경 내용을 add 로 모두 깉에 추가한다.**
+
+``` r
+git add .
+```
+
+``` r
+git commit -m "변경사항메모"
+```
+
+``` r
+git push origin main
+```
+
+## 
