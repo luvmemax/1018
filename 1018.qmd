@@ -1,42 +1,71 @@
-# Lesson 1: The Divided Mind
+# 해결지향소통
 
-# 10월 18일 분열된 마음
+### 원격 → 로컬 저장소
 
-## 의견 불일치
+1.  **Tools → Project Options**
+2.  **새 창이 열리면 Git/SVN → Version control system을 (None)에서 Git으로 변경**
+3.  **Terminal 클릭 후 아래 코드 입력**
+
+``` r
+git remote add origin https://github.com/luvmemax/1018.git
+
+git config --global user.email "litam0401@naver.com"
+
+git config --global user.name "luvmemax"
+```
+
+\*\*\*\*4. 원격저장소 내용 로컬에 반영\*\*\*\*
+
+-   먼저 원격저장소의 내용(main)을 로컬저장소(origin)으로 당겨온다(pull)
+
+``` r
+git pull origin main
+```
+
+1.  **변경 내용을 add 로 모두 깉에 추가한다.**
+
+``` r
+git add .
+```
+
+``` r
+git commit -m "변경사항메모"
+```
+
+``` r
+git push origin main
+```
+
+## Lesson 1: The Divided Mind
+
+### 의견 불일치
 
 -   의견 불일치로 당황스러웠던 경험이 있나요? 그 감정엔 다양한 이유가 있지만, 그 중 하나는 '뇌가 작동하는 법이다'. 빠르게 변화하는 세상 속, 하나의 기술인 우리의 '뇌'는 아직 시대에 맞춰 업데이트 되지 못했다!
 
-## Mental Shortcuts \> 생각의 지름길
+### Mental Shortcuts \> 생각의 지름길
 
 -   '먹거나, 먹히거나!' 소그룹에서 생존에 관한 문제를 빠르게 결정해야만 했다.
 -   정보를 빠르게 처리하기 위해 Mental Shortcuts를 발전시킴.
 
-## Our Divided Minds
+### Our Divided Minds
 
 -   자동화 / 통제 파트 나뉘어짐
-
 -   Automatic: 감정적, 직관적 = Autopilot \> 엄청 큰 코끼리
-
 -   Controlled: 의식적, 분석적 \> 코끼리를 타고 있는 사람.
-
-    ![images/Divided Minds.png](images/Divided%20Minds.png)
-
 -   직관이 결정을 하면, 의식은 그 결정을 합리화하는데 사용된다. \> 그래서 의식적으로 심사숙고해서 결정한 것이라고 착각함.
 
 ### "Our intuitions come first, our reasoning comes second."
 
 -   우리의 Rider는 코끼리의 '변호사'
 
-## \## Cognitive Biases 인지 편향
-
-## Confirmation Bias 확증 편향
+### Confirmation Bias 확증 편향
 
 -   기존의 신념과 일치하면 쉽게 받아들이고 불일치하면 거절한다.
 -   사실과 증거 중 우리 신념과 일치하는 부분만 받아들임.
 -   우리의 코끼리 (직관)가 정보를 보고 기존의 느낌, 신념, 경험을 바탕으로 걸러냄 \> 확증편향은 코끼리가 만든다!
 -   확증편향에 빠져 희생자가 발생하진 않는지?
 
-## 확증편향을 벗어나는 방법
+### 확증편향을 벗어나는 방법
 
 ### Step 1. 코끼리가 폭주하는 지 확인한다.
 
@@ -46,9 +75,276 @@ ex. 내 생각 100프로 맞음. 모두가 그렇게 생각해.
 
 -   내 의견 외에 다른 의견은 뭐가 있지?
 
-## 총정리
+### 총정리
+
+1.  우리의 뇌는 두 가지 시스템이 있다 : 자동적인 것과 통제할 수 있는것
 
 -   Our brains have two thinking "systems": automatic and controlled thinking.
+
+1.  우리의 이성은 종종 직관을 따른다
+
 -   Our reasoning often follows our intuitions, rather than the other way around.
+
+1.  이 두 가지는 상충되는데 우리는 이걸 알아차리지 못한다.
+
 -   We are prone to consistent errors in our reasoning, and we're often unaware of it.
+
+1.  우리가 실수하는 이유는 이 두 가지 요소가 의견을 불일치 했기 때문
+
 -   These mistakes can shape how we interpret facts and can lead to seemingly intractable disagreements.
+
+``` jsx
+git remote add origin https://github.com/luvmemax/1018.git
+```
+
+## Lesson 2
+
+### Us and Them
+
+-   정치적인 신념, 도덕적인 차이는 어디에서 오는가
+
+### Let's Recap
+
+-   이중 처리 : 우리의 뇌에는 직관과 추론 영역이 있다.
+    -   직관 : 자동적이고, 빠르고, 의식적이며, 감정적이다
+
+    -   추론 : 느리고, 의식적이며, 노력해야 하고, 논리적이다
+
+    -   
+
+        > 우리의 직관이 추론을 이끈다.
+
+### Mind Reading
+
+-   정치적 분열에서 코끼리와 탑승자가 어떻게 작동하는지 알아볼 것이다.
+
+### What do Republicans Believe?
+
+-   공화당을 믿는 사람들은 어떻게 생각하는가.
+
+### How We See Each Other
+
+-   설문조사 자료를 통해 반대편에 있는 사람들도 똑같이 인종차별, 성차별, 총기규제 문제에 대해 걱정하고 있다.
+
+### The Perception Gap
+
+-   타인의 실제 신념과 내가 인식하고 있는 그 사람의 신념은 큰 차이가 있다. (인지 차이)
+-   거의 모든 사람들이 이러한 인지 차이가 있다.
+-   이런 인지 차이는 다른 사람과 얼마나 많은 상호작용을 하느냐에 따라서 인지 차이에 영향을 받는다.
+
+### **What Creates the Perception Gap**
+
+1.  에코 룸 : 비슷한 사람들끼리 상호 작용하면 그 사람들끼리 상호작용하며 생각이 점점 강해져서 그 공동체와 다른 공동체와 성격이 분리됨
+2.  극단적인 관점이 제일 커진다 : 극단적이고 자극적인 이슈가 미디어에서 주목받는다. 그래서 정치적 견해는 이런 양극단이 될 수 밖에 없다.
+
+### The Implications
+
+-   우리가 쉽게 생각한 것만큼 나뉘어져 있진 않다.
+-   실제로, 섭외한 67%의 미국인들은 이런 극단적인 정치 양극화에 지쳐 있다고 하기도 했다.
+
+### Where Do Our Differences Come From?
+
+-   도덕기반이론: 우리의 마음은 6가지의 맛을 느끼는 혀와 같다. 세상에 대해 옳고 그름을 판단하는 기준이 6가지가 있다는 뜻.
+    -   우리가 맛을 느끼는 체계는 같지만, 각자의 삶의 배경이 다르므로 우리가 맛을 느끼는 정도도 다 다르다
+-   돌봄, 공평, 자유, 충성, 권위, 순결
+
+### Our Moral Intuitions
+
+-   코끼리가 걸러낸 것으로 라이더가 결정을 한다.
+-   우리가 세상에 대한 정보를 처리할 때 코끼리가 가지고 이쓴 도덕 직관 필터로 세상을 이해한다.
+-   우리가 미디어를 접할 때 코끼리의 도덕 직관으로 순식간에 필터를 거친다. 이 과정은 정확한 정보를 알기도 전에 이루어진다.
+    -   그만큼 도덕직관은 강력하게 우리를 이끈다.
+
+### Why We Disagree on Right and Wrong
+
+-   우리의 도덕 기반은 우리의 믿음을 이해하는데 도움이 되지만 우리가 왜 정치적으로 다른 견해를 가지는지도 이해할 수 있다.
+-   보수적인 사람과 진보적인 사람은 서로 중심으로 두는 가치가 다르다.
+
+## Decoding Language
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/38efbfc5-2b5d-48fc-85b3-d9f2c8b95bb2/50e49630-f275-4941-969f-ee60b45ef8fc/Untitled.png)
+
+-   **도덕기반**
+
+    1)  Care
+
+    2)  Fairness
+
+    3)  Liberty : 자유
+
+    4)  Loyalty : 충성도
+
+    5)  Authority : 권한
+
+    6)  Sanctity : 거룩함
+
+-   **의견은 대립되더라도, 비슷한 도덕기반을 사용할 수 있음. 관점이 크게 다른 것 같지만 그렇지 않다!**
+
+    -   양 쪽의 의견을 다 들어봐라. 한 입장에만 치우치지 말고!
+
+### Recap
+
+-   우리는 다른 측면을 실제보다 더 극단적인 것으로 생각한다.
+-   우리는 6가지 도덕 기반을 전부 갖고 있다.
+-   삶의 경험은 우리의 도덕적 관점을 형성하는데 굉장히 큰 역할을 한다.
+-   보수와 진보는 이런 방법의 다른 방법, 정도로 도덕 기반에 의지한다.
+-   우리는 사람의 언어를 통해서 그 사람들이 믿고 하는 것에 대해 해독할 수 있다.
+
+## Lesson 3: Get Curious
+
+-   탐험가적 마음가짐을 통해 논쟁을 이해하고 상호작용할 수 있음!
+
+### Warrior Mindset
+
+-   내 말이 맞다고 생각해, 싸움꾼의 마인드로 이기고 지고 밖에 없음. 이기는 것만 있고 듣는 것은 하지 않음.
+
+### Warriors Lose
+
+-   이기려 하는 것? 멍청한거다!
+    -   이기는 것이 기분은 좋겠지만, 싸움꾼 마인드로 대화하면 상대는 위협받고 모욕적인 기분을 느껴 방어 기제를 펼칠 것임. 그리고 그 사람과의 관계는 손상되는 것. 논쟁에서 이기는 것은 많은 것을 잃게 만든다.
+    -   그런데도 우리는 왜 싸움꾼의 마인드로 대화하나?
+
+### Being Wrong
+
+-   우리가 틀렸다는 것이 싫어. 우린 종종 틀리는데, 우리가 인지를 못하는 것임.
+
+### The Illusion of Explanatory Depth
+
+-   아마 대부분 사람이 대략적으로 알고 있지 세세하게 알고 있지 않음.
+
+### Embracing Not Knowing 내가 잘 모르고 있음을 받아들여라
+
+-   실제로 잘 알진 못하지만, 쟁점에 대해 강한 느낌이 있음... ㅇㅇ! 당연하지! 알고 있음! 근데 설명해바! 하면 음 ,, 먼가 표현은 못 하겠는데.. 이런 맥락.
+
+### Intellectual Humility
+
+-   내가 알고 있는 게 한정적이고 내가 틀림을 인정하는 것
+
+    = 지적겸손.
+
+-   우리가 틀린 것을 받아들이는 것이 삶의 일부이며 타인의 비판을 받아들일 줄 알아야함. 틀렸다는 것은 성장의 기회.
+
+### Intellectual Humilityd의 이점
+
+-   연인 관계, 친구 관계, 가족 관계 만족도 높아짐
+-   어려운 갈등을 헤쳐나가고
+-   더 행복해질 수 있다!
+
+### Belief Updating
+
+-   흑백논리에 있지만, 그 중간에 있을 순 없을까?
+    -   내가 전부 다 틀린게 아니라, 내 확신을 새로운 사실 혹은 근거에 의해 확신도를 떨어트린다면 !
+-   Belief Updating = 생각을 / 신념을 업데이트!
+
+### Changing Your Mind
+
+-   내 신념을 업데이트 할 수 있는 마음가짐을 가지고 있는 것이 중요함.
+-   탐험가의 마음가짐이 필요. '열린 마음'
+
+### Explorer Mind
+
+-   Curious: 호기심을 가져라.
+    -   무조건적인 반박 X. 니가 왜 그런 생각을 하는지 궁금해. 왜 그 사람들은 늘 그렇게 느끼는걸까?
+-   Good Q: 좋은 질문을 해라
+    -   남을 판단하고 공격하는 질문은 하지 마라! 넌 잘 몰라 이런 뉘앙스. 조언식의 질문.
+
+### Constructive Questions
+
+-   **Are Genuinely Curious: 니가 정말 궁금해하는 거냐**
+    -   진정 궁금한거냐? 알고싶어하는 진실된 마음.
+        -   니가 그 말 했잖아. 그 말이 무슨 의민지 나한테 좀 더 얘기해줄래?
+-   **Are open-ended: 열린 질문**
+    -   간단하게 예스/노로 대답 가능한 질문 말고! 왜 그런거야? 어떻게 그렇게 된거야? 같은 열린 질문을 해라
+-   **Invite complexity: 복잡한 내용을 준비해라**
+    -   중간지점인 흑백지역(복잡한 지점)을 나눠라.
+        -   넌 늘 이런식으로 느꼈니? 널 헷갈리게 하는 요소는 없을까?
+-   **Invite stories: 이야기를 끌어내라**
+    -   사실과 숫자에 대한 이야기 대신 그 사람에 관한 이야기를 해라.
+        -   널 그렇게 믿도록 한 너의 삶에 대해 얘기해줄래? 왜 그런 믿음을 가지게 된거야? 스토리를 공유하게끔.
+-   **Use a curious tone: 궁금증의 톤을 갖고 있어라.**
+    -   판단하고 비난하는 듯한 톤이 들어가지 않도록 유의. 호기심 가지는 톤!
+
+### Life Hack
+
+Try using the questions below to guide you:
+
+-   Why is this issue important to you?
+    -   이게 너한테 왜 중요해?
+-   Can you tell me more?
+    -   더 자세히 말해줄랭
+-   Can you share more about what you mean when you say
+    -   니가 말한거 뭔 뜻인지 좀 더 말해줘
+-   Why do you think that is?
+    -   왜 그렇게 생각하는거야?
+-   Can you share something about your experience that may have led you to believe ?
+    -   이런 생각을 가지게 된 니 경험을 말해줘
+-   Is there anything about where you feel conflicted or pulled in two different directions?
+    -   복잡하다거나 방향성이 안 맞는 경우는 없었을까? (모순점, 충돌점)
+-   What is at stake for you or someone you know about this issue?
+    -   이 쟁점에 관련된 이해관계는 없니?
+-   Why do you think you care so deeply about this issue?
+    -   이 쟁점에 깊이 관여한 이유는 뭐야?
+-   Have you always felt that way?
+    -   넌 늘 그렇게 생각하는거야?
+
+JH\> 남을 판단하는 질문 자제. 그 의견을 가지는 이유는 뭘까? 물어봐야지
+
+## Lesson 4: Storytelling
+
+### Stories Matter
+
+-   이야기는 우리의 삶에서 정말 큰 부분을 차지함. 이야기를 통해 삶을 해결해나가는.
+-   어떻게 이야기를 통해 공감을 이끌어내 사람의 마음을 바꿀 수 있는지?
+
+### When Reasoning Backfires
+
+-   논리를 갖다대면, 기수는 더 방어적이게 됨.
+
+### The power of Stories
+
+-   감정과 직관에 호소해야 함. \> 가장 좋은 방법은? 스토리텔링.
+-   사건에 대한 맥락을 제시함.
+-   너 틀렸다고 말하지 않아도, 내 의사를 전달할 수 있게 해줌.
+
+### Our Beliefs
+
+**\< Purple: America, We Need to Talk \>**
+
+-   Karen: 정부의 도움도 좋지만, 세대간의 관계를 형성하는 것도 필요하다. ex) 지역 커뮤니티 등 Strong Families = Safety
+    -   우리 모두는 사회에서 어떤 역할을 수행하고 있다,
+-   Akram: 사회 안전망이 필요하다. 개인 뿐만이 아니라 사회 전체를 위해.
+    -   어렸을 때 이민을 와서 아이들 사이에 낄 수도 없었음. 그냥 학교 끝나고 사람 구경하러 다니고 .. 그랬음.
+-   AJ: 사람들의 기본적인 욕구를 충족할 필요가 있다.
+    -   가난해본 적이 있었음 .... 상당히 어렵게 자라옴.
+-   Ted: 정부가 너무 책임만 지다 보면, 사람이 살아갈 동기를 잃는다.
+    -   강가에서 젤 편해.
+
+## Lesson 5 : Navigating Conflict
+
+### 100% Elephant
+
+-   코끼리(감정)이 날뛰는 패닉존에 있을 땐, 코끼리를 스트레치존으로 데려가야 한다.
+
+### Detect - Pause - Redirect
+
+-   패닉 상태임을 인지해라.
+-   일단 잠깐 멈춰라!
+-   패닉존에서 벗어날 길을 찾아보자.
+
+### 1. Detect
+
+-   Physical Sign: 얼굴 후끈, 덥거나 춥고, 손발이 차가워진다면?
+-   Thoughts: 난 바보야 ... 난 끝났어 ... 생각이 든다면?
+-   Emotions: 불안, 좌절, 죄책감이 든다면?
+-   Behaviors: Fight(공격, 비난), Flight(회피), Freeze(조용히) 한다면?
+
+### 2. Pause
+
+-   일단 잠깐 멈추고, 심호흡 !!!!!! (1, 2, 3)
+-   너의 감각을 사용해서 현재의 상황을 둘러봐.
+-   주변에 대한 판단 대신, 너의 현 상황에 집중해봐.
+-   너 스스로와 긍정적인 대화를 해봐. 넌 할 수 있어, 잘했어 등.
+
+### 3. Take a break
+
+-   패닉 존에 있다면, 멈추고 !! (하루정도) 다시 얘기해 ..
